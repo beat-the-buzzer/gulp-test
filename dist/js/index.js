@@ -1,0 +1,1 @@
+"use strict";var _extends=Object.assign||function(e){for(var a=1;a<arguments.length;a++){var o=arguments[a];for(var r in o)Object.prototype.hasOwnProperty.call(o,r)&&(e[r]=o[r])}return e};function demo(){return{name:"张三",age:21}}var _demo=demo(),name=_demo.name,age=_demo.age,str="我叫 "+name+"，今年"+age;console.log(str);var obj={a:1,b:3},obj2=_extends({},obj,{b:2});

@@ -1,0 +1,5 @@
+.box {
+  display: flex;
+  width: 100%;
+  transform: translateX(-50%) translateY(-50%)
+}
