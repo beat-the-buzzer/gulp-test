@@ -44,4 +44,4 @@ gulp.task('compress_img', function () {
 });
 
 // 暂时去掉了压缩图片的操作
-gulp.task('default', ['compress_html', 'compress_css', 'compress_js','compress_img']);
+gulp.task('default', gulp.parallel(['compress_html', 'compress_css', 'compress_js']));
